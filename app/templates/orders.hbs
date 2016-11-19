@@ -1,1 +1,3 @@
-<h2>Hello from orders.hbs</h2>
+{{#each model as |order|}}
+order {{order.id}} for {{order.name}}<br>
+{{/each}}
